@@ -184,16 +184,17 @@ group by shift;
 
 ## Findings
 
-- **Customer Demographics**: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
-- **High-Value Transactions**: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
-- **Sales Trends**: Monthly analysis shows variations in sales, helping identify peak seasons.
-- **Customer Insights**: The analysis identifies the top-spending customers and the most popular product categories.
+- **Customer Demographics**: The dataset covers customers from different age groups, with sales spread across categories like Clothing, Beauty, and Electronics.
+- **High-Value Transactions**: Multiple transactions exceed 1000 in value, highlighting premium purchases by certain customers.
+- **Seasonal Sales Patterns**: Monthly trends show fluctuations, helping identify peak shopping periods.
+- **Top Buyers & Products**: The analysis highlights the highest-spending customers and the most popular product categories.
+- **Location Impact**: Sales vary across different locations, suggesting opportunities for targeted marketing.
 
 ## Reports
 
-- **Sales Summary**: A detailed report summarizing total sales, customer demographics, and category performance.
-- **Trend Analysis**: Insights into sales trends across different months and shifts.
-- **Customer Insights**: Reports on top customers and unique customer counts per category.
+- **Sales Summary**: A detailed overview of total sales, customer demographics, and category performance.
+- **Trend Analysis**: Monthly sales trends to identify peak sales periods.
+- **Customer Insights**: Reports on high-spending customers and unique customer counts per category.
 
 ## Conclusion
 
@@ -206,7 +207,7 @@ This project serves as a comprehensive introduction to SQL for data analysts, co
 3. **Run the Queries**: Use the SQL queries provided in the `analysis_queries.sql` file to perform your analysis.
 4. **Explore and Modify**: Feel free to modify the queries to explore different aspects of the dataset or answer additional business questions.
 
-## Author - DEMON
+## Author - UDIT PATEL
 
 This project is part of my portfolio, showcasing my SQL skills for a data analyst role. I worked with a retail sales dataset to clean the data, analyze customer demographics, track sales trends, and identify top-spending customers. By using SQL, I was able to find patterns, such as peak sales months and high-value transactions. These insights can help businesses make better decisions, like which products to focus on or when to run promotions. This project proves my ability to handle real-world data, write effective queries, and extract meaningful insights, which are essential skills for data analysis. 
 
