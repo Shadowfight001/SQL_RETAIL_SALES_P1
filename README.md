@@ -167,7 +167,7 @@ group by category;
 WITH hourly_sales
 AS
 (
-	SELECT *,
+SELECT *,
 	CASE
 		WHEN EXTRACT(HOUR FROM sale_time) < 12 THEN 'MORNING'
 		WHEN EXTRACT(HOUR FROM sale_time) BETWEEN 12 AND 17 THEN 'AFTERNOON'
@@ -175,7 +175,10 @@ AS
 	END AS shift
 FROM retail_sales
 )
-SELECT shift, COUNT(*) from hourly_sales
+SELECT
+	shift,
+	COUNT(*) as total_orders
+from hourly_sales
 group by shift;
 ```
 
